@@ -2,7 +2,12 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        lexend: ["Lexend Deca", "sans-serif"],
+      },
+    },
     colors: {
       primary: "hsl(233, 47%, 7%)",
       card: "hsl(244, 38%, 16%)",

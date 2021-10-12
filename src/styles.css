@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .stats-heading {
+    @apply text-heading text-2xl font-bold font-inter;
+  }
+  .stats-desc {
+    @apply text-sm text-paragraph uppercase font-lexend;
+  }
+}

@@ -11,23 +11,72 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./tailwind.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    <div class="w-full h-screen bg-primary">
-      <div class="w-11/12 bg-indigo-500 mx-auto">
-        <h1>hello</h1>
+    <div class="h-auto py-24 bg-primary flex justify-center items-center">
+      <div
+        class="
+          w-9/12
+          bg-card
+          mx-auto
+          flex flex-col
+          rounded-xl
+          overflow-hidden
+          lg:flex-row-reverse
+        "
+      >
+        <div class="relative flex-1">
+          <div class="absolute inset-0 bg-accent bg-opacity-40"></div>
+          <img
+            class="object-cover w-full lg:h-full"
+            src="/images/image-header-mobile.jpg"
+          />
+        </div>
+        <div class="font-sans flex-1 text-center lg:text-left">
+          <div class="p-12">
+            <h2 class="text-heading font-inter text-3xl font-bold mb-8">
+              Get <span class="text-accent">insights</span> that help your
+              business grow.
+            </h2>
+            <p class="text-paragraph font-lexend mb-16">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+            <div class="flex flex-col lg:flex-row">
+              <div class="mb-16 lg:flex-1">
+                <h3 class="stats-heading">10k+</h3>
+                <p class="stats-desc">companies</p>
+              </div>
+              <div class="mb-16 lg:flex-1">
+                <h3 class="stats-heading">314</h3>
+                <p class="stats-desc">templates</p>
+              </div>
+              <div class="lg:flex-1">
+                <h3 class="stats-heading uppercase">12m+</h3>
+                <p class="stats-desc uppercase">queries</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
-
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    <div class="bg-primary text-center text-heading">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by:
+      <a href="https://www.github.com/saerdyey" target="_blank"
+        >Jay Anton Roblico</a
+      >.
+    </div>
   </body>
 </html>

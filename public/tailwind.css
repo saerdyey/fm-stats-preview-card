@@ -635,6 +635,23 @@ video {
   }
 }
 
+.stats-heading {
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: hsla(0, 0%, 100%, var(--tw-text-opacity));
+}
+
+.stats-desc {
+  font-family: Lexend Deca, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -15047,6 +15064,14 @@ video {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
+.font-lexend {
+  font-family: Lexend Deca, sans-serif;
 }
 
 .text-xs {
@@ -32588,6 +32613,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .sm\:font-lexend {
+    font-family: Lexend Deca, sans-serif;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -50085,6 +50118,14 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .md\:font-lexend {
+    font-family: Lexend Deca, sans-serif;
   }
 
   .md\:text-xs {
@@ -67586,6 +67627,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .lg\:font-lexend {
+    font-family: Lexend Deca, sans-serif;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -85085,6 +85134,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .xl\:font-lexend {
+    font-family: Lexend Deca, sans-serif;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -102582,6 +102639,14 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .\32xl\:font-lexend {
+    font-family: Lexend Deca, sans-serif;
   }
 
   .\32xl\:text-xs {
